@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teorema de Pitágoras</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      nav li {
+        float: left;
+      }
+
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav li a:hover {
+        background-color: #4CAF50;
+      }
+
+      section {
+        padding: 20px;
+        margin-top: 20px;
+        background-color: white;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      h2 {
+        margin-top: 0;
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <h1>Teorema de Pitágoras</h1>
+    </header>
+
+    <nav>
+      <ul class="w3-center">
+        
+        <li><a href="#definicao">Definição</a></li>
+        <li><a href="#exemplos">Exemplos</a></li>
+        <li style="margin-left: 1621px;"><a href="index.html">Voltar</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="definicao">
+        <h2 class="w3-center w3-teal">Definição</h2>
+        <p class="w3-center">O Teorema de Pitágoras é um dos teoremas mais conhecidos e importantes da matemática, que relaciona os lados de um triângulo retângulo (um triângulo que possui um ângulo reto, ou seja, com medida de 90 graus).
+
+          Segundo o teorema, em qualquer triângulo retângulo, o quadrado da hipotenusa (o lado oposto ao ângulo reto) é igual à soma dos quadrados dos catetos (os outros dois lados que formam o ângulo reto).
+          
+          Matematicamente, podemos escrever o teorema de Pitágoras como:
+          <br>
+          <strong>
+            a² + b² = c²
+          </strong>
+          <br>
+          
+          Onde <strong>"a"</strong> e <strong>"b"</strong> são os catetos e <strong>"c"</strong>   é a hipotenusa do triângulo retângulo.
+          
+          </p>
+        <p class="w3-center"><img src="imagens/fotoPitagoras.jpg" alt="Teorema de Pitágoras"></p>
+          <p>Essa fórmula é muito utilizada em várias áreas da matemática e também em outras áreas do conhecimento, como a física e a engenharia. Com ela, podemos calcular a medida de um dos lados de um triângulo retângulo, conhecendo os valores dos outros dois lados. Ou ainda, podemos verificar se um triângulo é ou não retângulo, comparando as medidas dos seus lados.</p>
+      </section>
+
+      <section id="exemplos">
+        <h2 class="w3-center w3-teal">Exemplos</h2>
+        <p>Um exemplo de aplicação do Teorema de Pitágoras é o cálculo da hipotenusa de um triângulo retângulo. Suponha que as medidas dos catetos sejam a=3 e b=4. Podemos usar o Teorema de Pitágoras para calcular a hipotenusa:</p>
+        <br>
+        <p class="w3-center">
+          <strong >
+            h² = a² + b²<br>
+            h² = 3² + 4²<br>
+            h² = 9 + 16 <br>
+            h² = 25 <br>
+            h = √25 <br>
+            h = 5 <br>
+            
+          </strong>
+          
+        </p>
+        
+        <p class="w3-center">Portanto, a hipotenusa do triângulo é 5.</p>
+        <br>
+        <br>
+        <section id="prova" class="w3-center">
+          <p>Outro exemplo do Teorema de Pitágoras:</p>
+          <img src="imagens/foto4.png" alt="Prova do Teorema de Pitágoras">
+          <br>
+          <br>
+          <br>
+
+          <p>Essa prova consiste em desenhar quatro cópias do triângulo retângulo, de modo que elas formem um quadrado. As áreas dos quatro triângulos são iguais à área do quadrado, que é dada por:</p>
+          <pre>
+            <strong>
+                A = lado²
+          </strong>
+          </pre>
+          <p>Porém, a área do quadrado também pode ser calculada somando as áreas dos quatro triângulos e a área do quadrado interno. Como a base e a altura dos triângulos são os catetos e a hipotenusa, temos:</p>
+          <pre>
+            <strong>
+              A = 4 x (1/2 x cateto x hipotenusa) + hipotenusa²
+            </strong>
+           
+          </pre>
+          <p>Igualando as duas expressões para a área do quadrado, temos:</p>
+          <pre>
+            <strong> 
+              lado² = 4 x (1/2 x cateto x hipotenusa) + hipotenusa²
+              lado² = 2 x cateto x hipotenusa + hipotenusa²
+              lado² = hipotenusa x (2 x cateto + hipotenusa)
+            </strong>
+          </pre>
+          <p>Dividindo ambos os lados da equação por (2 x cateto + hipotenusa), temos:</p>
+          <pre>
+            <strong>
+              lado² / (2 x cateto + hipotenusa) = hipotenusa
+            </strong>
+          </pre>
+          <p>Que é a relação do Teorema de Pitágoras.</p><p class="w3-center w3-round-xlarge w3-cursive w3-text-white w3-teal" style="">Desenvolvido por <em>Pimentas LTDA</em>.<br>Bruno Santos, Italo Mendes, João Pedro Lima, Kaio Amim, Matheus Mattos</p>
+        </section>
+      </section>
+
+     
+    </main>
+
+    
+    <footer>
+      <p>&copy; 2023 Teorema de Pitágoras</p>
+    </footer>
+  </body>
+</html>

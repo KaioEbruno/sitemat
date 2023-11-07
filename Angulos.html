@@ -1,0 +1,343 @@
+'<!DOCTYPE html>
+<html>
+<head>
+	<title>Ângulos dos Triângulos</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+            padding-top:50px;
+            margin-top:-26px;
+			text-align: center;
+		}
+		nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      nav li {
+        float: left;
+      }
+
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav li a:hover {
+        background-color: #4CAF50;
+      }
+		h1 {
+			margin: 0;
+			font-size: 36px;
+		}
+		
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 20px auto;
+			max-width: 1000px;
+		}
+		
+		.card {
+			background-color: #f7f7f7;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+			margin: 10px;
+			padding: 20px;
+			text-align: center;
+			width: calc(33.33% - 20px);
+		}
+		
+		.card h2 {
+			font-size: 24px;
+			margin-top: 0;
+		}
+		
+		.card p {
+			font-size: 18px;
+			margin: 10px 0;
+			text-align: justify;
+		}
+		
+		.card a {
+			background-color: #333;
+			color: #fff;
+			display: inline-block;
+			font-size: 18px;
+			padding: 10px 20px;
+			text-decoration: none;
+			transition: background-color 0.3s ease;
+		}
+		
+		.card a:hover {
+			background-color: #444;
+		}
+		
+		.card img {
+			display: block;
+			margin: 0 auto 10px;
+			max-width: 100%;
+		}
+		
+		table {
+			border-collapse: collapse;
+			margin: 20px auto;
+			width: 80%;
+		}
+		
+		th, td {
+			border: 1px solid #ccc;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		th {
+			background-color: #333;
+			color: #fff;
+		}
+        footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.2);
+      }
+	</style>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+    
+	<header>
+		<h1>Ângulos dos Triângulos</h1>
+	</header>
+	<nav>
+        <ul>
+          <li style="margin-left: 1820px;"><a href="index.html"><strong>Voltar</strong></a></li>
+        </ul>
+      </nav>
+	<div class="container">
+		<div class="card">
+			<h2 class="w3-blue-gray w3-margin"><strong>Triângulo Acutângulo</strong></h2>
+			<img src="imagens/trianguloAcutangulo.jpg" alt="Triângulo Acutângulo">
+			<p>Um triângulo é acutângulo se todos os seus ângulos internos medem menos de 90 graus. Isso significa que ele não tem nenhum ângulo obtuso (maior que 90 graus). Todos os três ângulos são agudos (menores que 90 graus).</p>
+			<table>
+				<tr>
+					<th>Propriedades</th>
+					<th>Exemplos</th>
+				</tr>
+				<tr>
+					<td>Ângulos internos</td>
+					<td>Agudos (menores que 90 graus)</td>
+                </tr>
+                <tr>
+                    <td>Classificação</td>
+                    <td>Acutilátero (todos os lados têm medidas diferentes), isósceles (dois lados iguais e um diferente) ou equilátero (todos os lados iguais)</td>
+                </tr>
+                <tr>
+                    <td>Propriedades adicionais</td>
+                    <td>O circuncentro e o ortocentro do triângulo acutângulo estão dentro do triângulo</td>
+                </tr>
+            </table>
+            <a href="#acutangulo">Ver mais</a>
+        </div>
+        
+        <div class="card">
+            <h2 class="w3-blue-gray w3-margin"><strong>Triângulo <br> Retângulo</strong></h2>
+            <img src="imagens/trianguloRetangulo.png" alt="Triângulo Retângulo">
+            <p>Um triângulo é retângulo se um dos seus ângulos internos mede 90 graus. Os outros dois ângulos são agudos (menores que 90 graus). O lado oposto ao ângulo reto é chamado de hipotenusa, e os outros dois lados são chamados de catetos.</p>
+            <table>
+                <tr>
+                    <th>Propriedades</th>
+                    <th>Exemplos</th>
+                </tr>
+                <tr>
+                    <td>Ângulos internos</td>
+                    <td>Um ângulo reto (90 graus) e dois ângulos agudos (menores que 90 graus)</td>
+                </tr>
+                <tr>
+                    <td>Propriedades adicionais</td>
+                    <td>O comprimento da hipotenusa pode ser calculado pelo teorema de Pitágoras (c² = a² + b²), o ponto de encontro das bissetrizes dos ângulos agudos é o incentro do triângulo, o circuncentro está no ponto médio da hipotenusa e o ortocentro está em um dos vértices do triângulo</td>
+                </tr>
+            </table>
+            <a href="#retangulo">Ver mais</a>
+        </div>
+        
+        <div class="card">
+            <h2 class="w3-blue-gray w3-margin"><strong>Triângulo Obtusângulo</strong></h2>
+            <img src="imagens/trianguoObtusangulo.png" alt="Triângulo Obtusângulo">
+            <p>Um triângulo é obtusângulo se um dos seus ângulos internos mede mais de 90 graus. Isso significa que ele tem pelo menos um ângulo obtuso (maior que 90 graus). Os outros dois ângulos são agudos (menores que 90 graus).</p>
+            <table>
+                <tr>
+                    <th>Propriedades</th>
+                    <th>Exemplos</th>
+                </tr>
+                <tr>
+                    <td>Ângulos internos</td>
+                    <td>Um ângulo obtuso (maior que 90 graus) e dois ângulos agudos (menores que 90 graus)</td>
+                </tr>
+                <tr>
+                    <td>Classificação</td>
+                    <td>Acutilátero (todos os lados têm medidas diferentes), isósceles (dois lados iguais e um diferente) ou escaleno (todos os lados têm medidas diferentes)</td>
+                </tr>
+                <tr>
+                <td>Propriedades adicionais</td>
+                <td>O circuncentro e o ortocentro do triângulo obtusângulo estão fora do triângulo, o incentro está dentro do triângulo e o baricentro está em um ponto dentro do triângulo que é a média das coordenadas dos três vértices</td>
+                </tr>
+                </table>
+                <a href="#obtusangulo">Ver mais</a>
+                </div>
+                </section>
+
+
+
+                <br>
+                <br>
+                <br>
+
+
+
+            </section>
+            <section id="acutangulo">
+                <h2 class="w3-center w3-blue-gray"><strong>Triângulo Acutângulo</strong></h2>
+                <p>Um triângulo acutângulo é aquele em que todos os seus ângulos internos são agudos, isto é, menores que 90 graus.</p>
+                <p class="w3-center"><img  src="imagens/trianguloAcutangulo.jpg" alt="Triângulo acutangulo" style="width:50%"></p>
+                <h3>Classificação</h3>
+                <p>Dependendo da medida dos lados, um triângulo acutângulo pode ser classificado como:</p>
+                <table>
+                    <tr>
+                        <th>Tipo de triângulo</th>
+                        <th>Descrição</th>
+                    </tr>
+                    <tr>
+                        <td>Acutângulo escaleno</td>
+                        <td>Todos os lados têm medidas diferentes</td>
+                    </tr>
+                    <tr>
+                        <td>Acutângulo isósceles</td>
+                        <td>Dois lados iguais e um diferente</td>
+                    </tr>
+                    <tr>
+                        <td>Acutângulo equilátero</td>
+                        <td>Todos os lados iguais</td>
+                    </tr>
+                </table>
+                <h3>Propriedades adicionais</h3>
+                <p>Algumas propriedades adicionais do triângulo acutângulo são:</p>
+                <ul>
+                    <li>O circuncentro, o ortocentro, o incentro e o baricentro estão todos dentro do triângulo</li>
+                    <li>O incentro é o centro da circunferência inscrita no triângulo</li>
+                    <li>O baricentro é o ponto de encontro das medianas do triângulo</li>
+                </ul>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                </section>
+
+
+                    <section id="retangulo">
+                        <h2 class="w3-center w3-blue-gray"><strong>Triângulo Retângulo</strong></h2>
+                        <p>Um triângulo retângulo é aquele em que um dos seus ângulos internos mede 90 graus. Os outros dois ângulos são agudos, isto é, menores que 90 graus. Ele possui propriedades especiais relacionadas à sua hipotenusa e aos seus ângulos.</p>
+                        <p class="w3-center"><img  src="imagens/trianguloRetangulo.png" alt="Triângulo Retângulo" style="width:50%"></p>
+                        <h3>Classificação</h3><br>
+                            <p>Dependendo da medida dos lados, um triângulo retângulo pode ser classificado como:</p>
+                        <table>
+                            <tr>
+                                <th>Tipo de triângulo</th>
+                                <th>Descrição</th>
+                            </tr>
+                            <tr>
+                                <td>Retangulo escaleno</td>
+                                <td>Todos os lados têm medidas diferentes</td>
+                            </tr>
+                            <tr>
+                                <td>Retangulo isósceles</td>
+                                <td>Dois lados iguais e um diferente</td>
+                            </tr>
+                        </table>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                    </section>
+                    
+
+
+                    <section id="obtusangulo">
+                        <h2 class="w3-center w3-blue-gray"><strong>Triângulo Obtusângulo</strong></h2>
+                        <p>Um triângulo obtusângulo é aquele em que um dos seus ângulos internos é obtuso, isto é, maior que 90 graus. Os outros dois ângulos são agudos, isto é, menores que 90 graus.</p>
+                        <p class="w3-center"><img  src="imagens/trianguoObtusangulo.png" alt="Triângulo obtusangulo" style="width:50%"></p>
+                        <br>
+
+                        <h3>Classificação</h3>
+                        <p>Dependendo da medida dos lados, um triângulo obtusângulo pode ser classificado como:</p>
+                        <table>
+                            <tr>
+                                <th>Tipo de triângulo</th>
+                                <th>Descrição</th>
+                            </tr>
+                            <tr>
+                                <td>Obtusângulo escaleno</td>
+                                <td>Todos os lados têm medidas diferentes</td>
+                            </tr>
+                            <tr>
+                                <td>Obtusângulo isósceles</td>
+                                <td>Dois lados iguais e um diferente</td>
+                            </tr>
+                            <tr>
+                                <td>Obtusângulo equilátero</td>
+                                <td>Todos os lados iguais</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <h3>Propriedades adicionais</h3>
+                        <p>Algumas propriedades adicionais do triângulo obtusângulo são:</p>
+                        <ul>
+                            <li>O circuncentro e o ortocentro do triângulo obtusângulo estão fora do triângulo</li>
+                            <li>O incentro está dentro do triângulo</li>
+                            <li>O baricentro está em um ponto dentro do triângulo que é a média das coordenadas dos três vértices</li>
+                        </ul>
+            
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                <section id="conclusao">
+                    <h2 class="w3-center w3-blue-gray"><strong >Conclusão</strong></h2>
+                    <br>
+                    <p> Os triângulos são figuras geométricas importantes em muitas áreas da matemática e da física. Eles possuem diversas propriedades e classificações que são úteis em diversos contextos. Esperamos que este site tenha sido útil para você aprender um pouco mais sobre os ângulos dos triângulos.</p>
+                </section>
+                <br>
+                <br>
+                <br>
+                <footer>
+                    <p class="w3-center w3-round-xlarge w3-text-white">&copy; 2023 Ângulos dos Triângulos Desenvolvido por <em>Pimentas LTDA</em>.<br>Bruno Santos, Italo Mendes, João Pedro Lima, Kaio Amim, Matheus Mattos</p></p>
+                  </footer>
+                
+            </body>
+            
+            </html>                
+                                
+    
